@@ -1,0 +1,8 @@
+.App {
+  display: grid;
+}
+
+/* TODO: remove **/
+img {
+  margin: 50px auto;
+}
