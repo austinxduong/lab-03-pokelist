@@ -1,7 +1,6 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
-import React from 'react';
 import request from 'superagent';
 import PokemonSearch from '../pokemon/PokemonSearch';
 import PokemonList from '../pokemon/PokemonList';
