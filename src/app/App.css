@@ -1,8 +1,23 @@
 .App {
+  height: 100vh;
   display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  background-image: linear-gradient(to right, #CC0000 , #3B4CCA);
 }
 
-/* TODO: remove **/
-img {
-  margin: 50px auto;
+.App .search-options {
+  background-image: linear-gradient(to left, #FFDE00, #B3A125);
+  border-bottom: 1px solid darkgreen;
+  padding: 10px 20px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+  
+.App main {
+  overflow: auto;
+  padding: 20px;
+  
 }

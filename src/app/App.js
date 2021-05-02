@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './App.css';
-import header from './header';
+import Header from './Header';
 import React from 'react';
 import request from 'superagent';
 import PokemonSearch from '../pokemon/PokemonSearch';
@@ -72,7 +72,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <header />
+        <Header />
 
         <section className="search-options">
           <PokemonSearch onSearch={this.handleSearch} />
